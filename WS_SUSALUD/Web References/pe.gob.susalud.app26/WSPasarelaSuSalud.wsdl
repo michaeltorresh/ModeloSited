@@ -1,0 +1,275 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:sus="http://www.susalud.gob.pe/acreditacion/WSPasarelaSuSalud/" name="WSPasarelaSuSalud" targetNamespace="http://www.susalud.gob.pe/acreditacion/WSPasarelaSuSalud/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:documentation>
+    <wsdl:appinfo source="WMQI_APPINFO">
+      <MRWSDLAppInfo imported="true">
+        <binding hasEncoding="false" imported="true" name="WSPasarelaSuSaludSOAP" originalBindingStyle="document" />
+      </MRWSDLAppInfo>
+    </wsdl:appinfo>
+  </wsdl:documentation>
+  <wsdl:types>
+    <xsd:schema targetNamespace="http://www.susalud.gob.pe/acreditacion/WSPasarelaSuSalud/">
+      <xsd:include schemaLocation="http://app26.susalud.gob.pe:27801/ServicePasarela?xsd=xsd0" />
+    </xsd:schema>
+    <xsd:schema>
+      <xsd:import schemaLocation="http://app26.susalud.gob.pe:27801/ServicePasarela?xsd=xsd0" namespace="http://www.susalud.gob.pe/acreditacion/WSPasarelaSuSalud/" />
+    </xsd:schema>
+  </wsdl:types>
+  <wsdl:message name="getConsultaAsegNomRequest">
+    <wsdl:part name="getConsultaAsegNomRequest" element="sus:getConsultaAsegNomRequest" />
+  </wsdl:message>
+  <wsdl:message name="getConsultaAsegNomResponse">
+    <wsdl:part name="getConsultaAsegNomResponse" element="sus:getConsultaAsegNomResponse" />
+  </wsdl:message>
+  <wsdl:message name="getConsultaAsegCodRequest">
+    <wsdl:part name="getConsultaAsegCodRequest" element="sus:getConsultaAsegCodRequest" />
+  </wsdl:message>
+  <wsdl:message name="getConsultaAsegCodResponse">
+    <wsdl:part name="getConsultaAsegCodResponse" element="sus:getConsultaAsegCodResponse" />
+  </wsdl:message>
+  <wsdl:message name="getConsultaDatosAdiRequest">
+    <wsdl:part name="getConsultaDatosAdiRequest" element="sus:getConsultaDatosAdiRequest" />
+  </wsdl:message>
+  <wsdl:message name="getConsultaDatosAdiResponse">
+    <wsdl:part name="getConsultaDatosAdiResponse" element="sus:getConsultaDatosAdiResponse" />
+  </wsdl:message>
+  <wsdl:message name="getConsultaDerivaRequest">
+    <wsdl:part name="getConsultaDerivaRequest" element="sus:getConsultaDerivaRequest" />
+  </wsdl:message>
+  <wsdl:message name="getConsultaDerivaResponse">
+    <wsdl:part name="getConsultaDerivaRequest" element="sus:getConsultaDerivaResponse" />
+  </wsdl:message>
+  <wsdl:message name="getCondicionMedicaRequest">
+    <wsdl:part name="getCondicionMedicaRequest" element="sus:getCondicionMedicaRequest" />
+  </wsdl:message>
+  <wsdl:message name="getCondicionMedicaResponse">
+    <wsdl:part name="getCondicionMedicaResponse" element="sus:getCondicionMedicaResponse" />
+  </wsdl:message>
+  <wsdl:message name="getConsultaObservacionRequest">
+    <wsdl:part name="getConsultaObservacionRequest" element="sus:getConsultaObservacionRequest" />
+  </wsdl:message>
+  <wsdl:message name="getConsultaObservacionResponse">
+    <wsdl:part name="getConsultaObservacionResponse" element="sus:getConsultaObservacionResponse" />
+  </wsdl:message>
+  <wsdl:message name="getConsultaSCTRRequest">
+    <wsdl:part name="getConsultaSCTRRequest" element="sus:getConsultaSCTRRequest" />
+  </wsdl:message>
+  <wsdl:message name="getConsultaSCTRResponse">
+    <wsdl:part name="getConsultaSCTRResponse" element="sus:getConsultaSCTRResponse" />
+  </wsdl:message>
+  <wsdl:message name="getConsultaxCartaGarantiaRequest">
+    <wsdl:part name="getConsultaxCartaGarantiaRequest" element="sus:getConsultaxCartaGarantiaRequest" />
+  </wsdl:message>
+  <wsdl:message name="getConsultaxCartaGarantiaResponse">
+    <wsdl:part name="getConsultaxCartaGarantiaResponse" element="sus:getConsultaxCartaGarantiaResponse" />
+  </wsdl:message>
+  <wsdl:message name="getNumAutorizacionRequest">
+    <wsdl:part name="getNumAutorizacionRequest" element="sus:getNumAutorizacionRequest" />
+  </wsdl:message>
+  <wsdl:message name="getNumAutorizacionResponse">
+    <wsdl:part name="getNumAutorizacionResponse" element="sus:getNumAutorizacionResponse" />
+  </wsdl:message>
+  <wsdl:message name="getConsultaEntVinculadaRequest">
+    <wsdl:part name="getConsultaEntVinculadaRequest" element="sus:getConsultaEntVinculadaRequest" />
+  </wsdl:message>
+  <wsdl:message name="getConsultaEntVinculadaResponse">
+    <wsdl:part name="getConsultaEntVinculadaResponse" element="sus:getConsultaEntVinculadaResponse" />
+  </wsdl:message>
+  <wsdl:message name="getConsultaProcRequestMsg">
+    <wsdl:part name="getConsultaProcRequest" element="sus:getConsultaProcRequest" />
+  </wsdl:message>
+  <wsdl:message name="getConsultaProcResponseMsg">
+    <wsdl:part name="getConsultaProcResponse" element="sus:getConsultaProcResponse" />
+  </wsdl:message>
+  <wsdl:message name="getRegistroDecAccidenteRequestMsg">
+    <wsdl:part name="getRegistroDecAccidenteRequest" element="sus:getRegistroDecAccidenteRequest" />
+  </wsdl:message>
+  <wsdl:message name="getRegistroDecAccidenteResponseMsg">
+    <wsdl:part name="getRegistroDecAccidenteResponse" element="sus:getRegistroDecAccidenteResponse" />
+  </wsdl:message>
+  <wsdl:message name="getFotoRequestMsg">
+    <wsdl:part name="getFotoRequest" element="sus:getFotoRequest" />
+  </wsdl:message>
+  <wsdl:message name="getFotoResponseMsg">
+    <wsdl:part name="getFotoResponse" element="sus:getFotoResponse" />
+  </wsdl:message>
+  <wsdl:portType name="WSPasarelaSuSalud">
+    <wsdl:operation name="getConsultaAsegNom">
+      <wsdl:input message="sus:getConsultaAsegNomRequest" />
+      <wsdl:output message="sus:getConsultaAsegNomResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="getConsultaAsegCod">
+      <wsdl:input message="sus:getConsultaAsegCodRequest" />
+      <wsdl:output message="sus:getConsultaAsegCodResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="getConsultaDatosAdi">
+      <wsdl:input message="sus:getConsultaDatosAdiRequest" />
+      <wsdl:output message="sus:getConsultaDatosAdiResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="getConsultaDeriva">
+      <wsdl:input message="sus:getConsultaDerivaRequest" />
+      <wsdl:output message="sus:getConsultaDerivaResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="getCondicionMedica">
+      <wsdl:input message="sus:getCondicionMedicaRequest" />
+      <wsdl:output message="sus:getCondicionMedicaResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="getConsultaObservacion">
+      <wsdl:input message="sus:getConsultaObservacionRequest" />
+      <wsdl:output message="sus:getConsultaObservacionResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="getConsultaSCTR">
+      <wsdl:input message="sus:getConsultaSCTRRequest" />
+      <wsdl:output message="sus:getConsultaSCTRResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="getConsultaxCartaGarantia">
+      <wsdl:input message="sus:getConsultaxCartaGarantiaRequest" />
+      <wsdl:output message="sus:getConsultaxCartaGarantiaResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="getNumAutorizacion">
+      <wsdl:input message="sus:getNumAutorizacionRequest" />
+      <wsdl:output message="sus:getNumAutorizacionResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="getConsultaEntVinculada">
+      <wsdl:input message="sus:getConsultaEntVinculadaRequest" />
+      <wsdl:output message="sus:getConsultaEntVinculadaResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="getConsultaProc">
+      <wsdl:input name="getConsultaProcRequest" message="sus:getConsultaProcRequestMsg" />
+      <wsdl:output name="getConsultaProcResponse" message="sus:getConsultaProcResponseMsg" />
+    </wsdl:operation>
+    <wsdl:operation name="getRegistroDecAccidente">
+      <wsdl:input name="getRegistroDecAccidenteRequest" message="sus:getRegistroDecAccidenteRequestMsg" />
+      <wsdl:output name="getRegistroDecAccidenteResponse" message="sus:getRegistroDecAccidenteResponseMsg" />
+    </wsdl:operation>
+    <wsdl:operation name="getFoto">
+      <wsdl:input name="getFotoRequest" message="sus:getFotoRequestMsg" />
+      <wsdl:output name="getFotoResponse" message="sus:getFotoResponseMsg" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="WSPasarelaSuSaludSOAP" type="sus:WSPasarelaSuSalud">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="getConsultaAsegNom">
+      <soap:operation soapAction="http://www.susalud.gob.pe/acreditacion/WSPasarelaSuSalud/getConsultaAsegNom" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getConsultaAsegCod">
+      <soap:operation soapAction="http://www.susalud.gob.pe/acreditacion/WSPasarelaSuSalud/getConsultaAsegCod" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getConsultaDatosAdi">
+      <soap:operation soapAction="http://www.susalud.gob.pe/acreditacion/WSPasarelaSuSalud/getConsultaDatosAdi" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getConsultaDeriva">
+      <soap:operation soapAction="http://www.susalud.gob.pe/acreditacion/WSPasarelaSuSalud/getConsultaDeriva" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getCondicionMedica">
+      <soap:operation soapAction="http://www.susalud.gob.pe/acreditacion/WSPasarelaSuSalud/getCondicionMedica" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getConsultaObservacion">
+      <soap:operation soapAction="http://www.susalud.gob.pe/acreditacion/WSPasarelaSuSalud/getConsultaObservacion" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getConsultaSCTR">
+      <soap:operation soapAction="http://www.susalud.gob.pe/acreditacion/WSPasarelaSuSalud/getConsultaSCTR" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getConsultaxCartaGarantia">
+      <soap:operation soapAction="http://www.susalud.gob.pe/acreditacion/WSPasarelaSuSalud/getConsultaxCartaGarantia" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getNumAutorizacion">
+      <soap:operation soapAction="http://www.susalud.gob.pe/acreditacion/WSPasarelaSuSalud/getNumAutorizacion" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getConsultaEntVinculada">
+      <soap:operation soapAction="http://www.susalud.gob.pe/acreditacion/WSPasarelaSuSalud/getConsultaEntVinculada" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getConsultaProc">
+      <soap:operation soapAction="http://www.susalud.gob.pe/acreditacion/WSPasarelaSuSalud/getConsultaProc" />
+      <wsdl:input name="getConsultaProcRequest">
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output name="getConsultaProcResponse">
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getRegistroDecAccidente">
+      <soap:operation soapAction="http://www.susalud.gob.pe/acreditacion/WSPasarelaSuSalud/getRegistroDecAccidente" />
+      <wsdl:input name="getRegistroDecAccidenteRequest">
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output name="getRegistroDecAccidenteResponse">
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getFoto">
+      <soap:operation soapAction="http://www.susalud.gob.pe/acreditacion/WSPasarelaSuSalud/getFoto" />
+      <wsdl:input name="getFotoRequest">
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output name="getFotoResponse">
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="WSPasarelaSuSalud">
+    <wsdl:port name="WSPasarelaSuSaludSOAP" binding="sus:WSPasarelaSuSaludSOAP">
+      <soap:address location="http://app26.susalud.gob.pe:27801/ServicePasarela" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

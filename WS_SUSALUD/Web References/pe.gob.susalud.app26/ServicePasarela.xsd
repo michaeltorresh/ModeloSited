@@ -1,0 +1,264 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xsd:schema xmlns:ibmSchExtn="http://www.ibm.com/schema/extensions" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/" xmlns:sus="http://www.susalud.gob.pe/acreditacion/WSPasarelaSuSalud/" targetNamespace="http://www.susalud.gob.pe/acreditacion/WSPasarelaSuSalud/" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <xsd:element ibmSchExtn:docRoot="true" name="getConsultaAsegNomResponse">
+    <xsd:complexType>
+      <xsd:sequence>
+        <xsd:element name="coError" type="xsd:string" />
+        <xsd:element name="txNombre" type="xsd:string" />
+        <xsd:element name="coIafa" type="xsd:string" />
+        <xsd:element name="txRespuesta" type="xsd:string" />
+      </xsd:sequence>
+    </xsd:complexType>
+  </xsd:element>
+  <xsd:element ibmSchExtn:docRoot="true" name="getConsultaAsegNomRequest">
+    <xsd:complexType>
+      <xsd:sequence>
+        <xsd:element name="coExcepcion" type="xsd:string" />
+        <xsd:element name="txNombre" type="xsd:string" />
+        <xsd:element name="coIafa" type="xsd:string" />
+        <xsd:element name="txPeticion" type="xsd:string" />
+      </xsd:sequence>
+    </xsd:complexType>
+  </xsd:element>
+  <xsd:element ibmSchExtn:docRoot="true" name="getConsultaAsegCodResponse">
+    <xsd:complexType>
+      <xsd:sequence>
+        <xsd:element name="coError" type="xsd:string" />
+        <xsd:element name="txNombre" type="xsd:string" />
+        <xsd:element name="coIafa" type="xsd:string" />
+        <xsd:element name="txRespuesta" type="xsd:string" />
+      </xsd:sequence>
+    </xsd:complexType>
+  </xsd:element>
+  <xsd:element ibmSchExtn:docRoot="true" name="getConsultaAsegCodRequest">
+    <xsd:complexType>
+      <xsd:sequence>
+        <xsd:element name="coExcepcion" type="xsd:string" />
+        <xsd:element name="txNombre" type="xsd:string" />
+        <xsd:element name="coIafa" type="xsd:string" />
+        <xsd:element name="txPeticion" type="xsd:string" />
+      </xsd:sequence>
+    </xsd:complexType>
+  </xsd:element>
+  <xsd:element ibmSchExtn:docRoot="true" name="getConsultaDatosAdiResponse">
+    <xsd:complexType>
+      <xsd:sequence>
+        <xsd:element name="coError" type="xsd:string" />
+        <xsd:element name="txNombre" type="xsd:string" />
+        <xsd:element name="coIafa" type="xsd:string" />
+        <xsd:element name="txRespuesta" type="xsd:string" />
+      </xsd:sequence>
+    </xsd:complexType>
+  </xsd:element>
+  <xsd:element ibmSchExtn:docRoot="true" name="getConsultaDerivaResponse">
+    <xsd:complexType>
+      <xsd:sequence>
+        <xsd:element name="coError" type="xsd:string" />
+        <xsd:element name="txNombre" type="xsd:string" />
+        <xsd:element name="coIafa" type="xsd:string" />
+        <xsd:element name="txPeticion" type="xsd:string" />
+      </xsd:sequence>
+    </xsd:complexType>
+  </xsd:element>
+  <xsd:element ibmSchExtn:docRoot="true" name="getCondicionMedicaResponse">
+    <xsd:complexType>
+      <xsd:sequence>
+        <xsd:element name="coError" type="xsd:string" />
+        <xsd:element name="txNombre" type="xsd:string" />
+        <xsd:element name="coIafa" type="xsd:string" />
+        <xsd:element name="txRespuesta" type="xsd:string" />
+      </xsd:sequence>
+    </xsd:complexType>
+  </xsd:element>
+  <xsd:element ibmSchExtn:docRoot="true" name="getCondicionMedicaRequest">
+    <xsd:complexType>
+      <xsd:sequence>
+        <xsd:element name="coExcepcion" type="xsd:string" />
+        <xsd:element name="txNombre" type="xsd:string" />
+        <xsd:element name="coIafa" type="xsd:string" />
+        <xsd:element name="txPeticion" type="xsd:string" />
+      </xsd:sequence>
+    </xsd:complexType>
+  </xsd:element>
+  <xsd:element ibmSchExtn:docRoot="true" name="getConsultaObservacionResponse">
+    <xsd:complexType>
+      <xsd:sequence>
+        <xsd:element name="coError" type="xsd:string" />
+        <xsd:element name="txNombre" type="xsd:string" />
+        <xsd:element name="coIafa" type="xsd:string" />
+        <xsd:element name="txRespuesta" type="xsd:string" />
+        <xsd:element name="rptObs" type="xsd:string" />
+      </xsd:sequence>
+    </xsd:complexType>
+  </xsd:element>
+  <xsd:element ibmSchExtn:docRoot="true" name="getConsultaSCTRResponse">
+    <xsd:complexType>
+      <xsd:sequence>
+        <xsd:element name="coError" type="xsd:string" />
+        <xsd:element name="txNombre" type="xsd:string" />
+        <xsd:element name="coIafa" type="xsd:string" />
+        <xsd:element name="txRespuesta" type="xsd:string" />
+      </xsd:sequence>
+    </xsd:complexType>
+  </xsd:element>
+  <xsd:element ibmSchExtn:docRoot="true" name="getConsultaxCartaGarantiaResponse">
+    <xsd:complexType>
+      <xsd:sequence>
+        <xsd:element name="coError" type="xsd:string" />
+        <xsd:element name="txNombre" type="xsd:string" />
+        <xsd:element name="coIafa" type="xsd:string" />
+        <xsd:element name="txRespuesta" type="xsd:string" />
+      </xsd:sequence>
+    </xsd:complexType>
+  </xsd:element>
+  <xsd:element ibmSchExtn:docRoot="true" name="getNumAutorizacionResponse">
+    <xsd:complexType>
+      <xsd:sequence>
+        <xsd:element name="coError" type="xsd:string" />
+        <xsd:element name="txNombre" type="xsd:string" />
+        <xsd:element name="coIafa" type="xsd:string" />
+        <xsd:element name="txRespuesta" type="xsd:string" />
+      </xsd:sequence>
+    </xsd:complexType>
+  </xsd:element>
+  <xsd:element ibmSchExtn:docRoot="true" name="getConsultaEntVinculadaResponse">
+    <xsd:complexType>
+      <xsd:sequence>
+        <xsd:element name="coError" type="xsd:string" />
+        <xsd:element name="txNombre" type="xsd:string" />
+        <xsd:element name="coIafa" type="xsd:string" />
+        <xsd:element name="txRespuesta" type="xsd:string" />
+      </xsd:sequence>
+    </xsd:complexType>
+  </xsd:element>
+  <xsd:element ibmSchExtn:docRoot="true" name="getConsultaProcResponse">
+    <xsd:complexType>
+      <xsd:sequence>
+        <xsd:element name="coError" type="xsd:string" />
+        <xsd:element name="txNombre" type="xsd:string" />
+        <xsd:element name="coIafa" type="xsd:string" />
+        <xsd:element name="txRespuesta" type="xsd:string" />
+      </xsd:sequence>
+    </xsd:complexType>
+  </xsd:element>
+  <xsd:element ibmSchExtn:docRoot="true" name="getConsultaDatosAdiRequest">
+    <xsd:complexType>
+      <xsd:sequence>
+        <xsd:element name="coExcepcion" type="xsd:string" />
+        <xsd:element name="txNombre" type="xsd:string" />
+        <xsd:element name="coIafa" type="xsd:string" />
+        <xsd:element name="txPeticion" type="xsd:string" />
+      </xsd:sequence>
+    </xsd:complexType>
+  </xsd:element>
+  <xsd:element ibmSchExtn:docRoot="true" name="getConsultaDerivaRequest">
+    <xsd:complexType>
+      <xsd:sequence>
+        <xsd:element name="coExcepcion" type="xsd:string" />
+        <xsd:element name="txNombre" type="xsd:string" />
+        <xsd:element name="coIafa" type="xsd:string" />
+        <xsd:element name="txPeticion" type="xsd:string" />
+      </xsd:sequence>
+    </xsd:complexType>
+  </xsd:element>
+  <xsd:element ibmSchExtn:docRoot="true" name="getConsultaObservacionRequest">
+    <xsd:complexType>
+      <xsd:sequence>
+        <xsd:element name="coExcepcion" type="xsd:string" />
+        <xsd:element name="txNombre" type="xsd:string" />
+        <xsd:element name="coIafa" type="xsd:string" />
+        <xsd:element name="txPeticion" type="xsd:string" />
+      </xsd:sequence>
+    </xsd:complexType>
+  </xsd:element>
+  <xsd:element ibmSchExtn:docRoot="true" name="getConsultaSCTRRequest">
+    <xsd:complexType>
+      <xsd:sequence>
+        <xsd:element name="coExcepcion" type="xsd:string" />
+        <xsd:element name="txNombre" type="xsd:string" />
+        <xsd:element name="coIafa" type="xsd:string" />
+        <xsd:element name="txPeticion" type="xsd:string" />
+      </xsd:sequence>
+    </xsd:complexType>
+  </xsd:element>
+  <xsd:element ibmSchExtn:docRoot="true" name="getConsultaxCartaGarantiaRequest">
+    <xsd:complexType>
+      <xsd:sequence>
+        <xsd:element name="coExcepcion" type="xsd:string" />
+        <xsd:element name="txNombre" type="xsd:string" />
+        <xsd:element name="coIafa" type="xsd:string" />
+        <xsd:element name="txPeticion" type="xsd:string" />
+      </xsd:sequence>
+    </xsd:complexType>
+  </xsd:element>
+  <xsd:element ibmSchExtn:docRoot="true" name="getNumAutorizacionRequest">
+    <xsd:complexType>
+      <xsd:sequence>
+        <xsd:element name="coExcepcion" type="xsd:string" />
+        <xsd:element name="txNombre" type="xsd:string" />
+        <xsd:element name="coIafa" type="xsd:string" />
+        <xsd:element name="txPeticion" type="xsd:string" />
+      </xsd:sequence>
+    </xsd:complexType>
+  </xsd:element>
+  <xsd:element ibmSchExtn:docRoot="true" name="getConsultaEntVinculadaRequest">
+    <xsd:complexType>
+      <xsd:sequence>
+        <xsd:element name="coExcepcion" type="xsd:string" />
+        <xsd:element name="txNombre" type="xsd:string" />
+        <xsd:element name="coIafa" type="xsd:string" />
+        <xsd:element name="txPeticion" type="xsd:string" />
+      </xsd:sequence>
+    </xsd:complexType>
+  </xsd:element>
+  <xsd:element ibmSchExtn:docRoot="true" name="getConsultaProcRequest">
+    <xsd:complexType>
+      <xsd:sequence>
+        <xsd:element name="coExcepcion" type="xsd:string" />
+        <xsd:element name="txNombre" type="xsd:string" />
+        <xsd:element name="coIafa" type="xsd:string" />
+        <xsd:element name="txPeticion" type="xsd:string" />
+      </xsd:sequence>
+    </xsd:complexType>
+  </xsd:element>
+  <xsd:element ibmSchExtn:docRoot="true" name="getRegistroDecAccidenteRequest">
+    <xsd:complexType>
+      <xsd:sequence>
+        <xsd:element name="coExcepcion" type="xsd:string" />
+        <xsd:element name="txNombre" type="xsd:string" />
+        <xsd:element name="coIafa" type="xsd:string" />
+        <xsd:element name="txPeticion" type="xsd:string" />
+        <xsd:element name="txDescripcion" type="xsd:string" />
+      </xsd:sequence>
+    </xsd:complexType>
+  </xsd:element>
+  <xsd:element ibmSchExtn:docRoot="true" name="getRegistroDecAccidenteResponse">
+    <xsd:complexType>
+      <xsd:sequence>
+        <xsd:element name="coError" type="xsd:string" />
+        <xsd:element name="txNombre" type="xsd:string" />
+        <xsd:element name="coIafa" type="xsd:string" />
+        <xsd:element name="txRespuesta" type="xsd:string" />
+      </xsd:sequence>
+    </xsd:complexType>
+  </xsd:element>
+  <xsd:element ibmSchExtn:docRoot="true" name="getFotoRequest">
+    <xsd:complexType>
+      <xsd:sequence>
+        <xsd:element name="coAfPaciente" type="xsd:string" />
+        <xsd:element name="coIafa" type="xsd:string" />
+      </xsd:sequence>
+    </xsd:complexType>
+  </xsd:element>
+  <xsd:element ibmSchExtn:docRoot="true" name="getFotoResponse">
+    <xsd:complexType>
+      <xsd:sequence>
+        <xsd:element name="coError" type="xsd:string" />
+        <xsd:element name="coAfPaciente" type="xsd:string" />
+        <xsd:element name="coIafa" type="xsd:string" />
+        <xsd:element name="txFecha" type="xsd:string" />
+        <xsd:element name="imFoto" type="xsd:base64Binary" />
+      </xsd:sequence>
+    </xsd:complexType>
+  </xsd:element>
+</xsd:schema>
